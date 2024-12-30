@@ -13,8 +13,8 @@ export class Keybindings {
     constructor(ext: Ext) {
         this.ext = ext;
         this.global = {
-            'activate-launcher': () => ext.window_search.open(ext),
-            'tile-enter': () => ext.tiler.enter(ext),
+            // 'activate-launcher': () => ext.window_search.open(ext),
+            // 'tile-enter': () => ext.tiler.enter(ext),
         };
 
         this.window_focus = {

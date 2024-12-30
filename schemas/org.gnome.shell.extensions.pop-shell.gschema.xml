@@ -29,7 +29,7 @@
         </key>
 
         <key type="b" name="show-title">
-            <default>true</default>
+            <default>false</default>
             <summary>Show title bars on windows with server-side decorations</summary>
         </key>
 
@@ -100,41 +100,10 @@
             <summary>Focus right window</summary>
         </key>
 
-        <!-- Launcher -->
-        <key type="as" name="activate-launcher">
-            <default><![CDATA[['<Super>slash']]]></default>
-            <summary>Search key combo</summary>
-        </key>
-
         <!-- Window Management Keys -->
-        <key type="as" name="toggle-stacking">
-            <default><![CDATA[['s']]]></default>
-            <summary>Toggle stacking mode inside management mode</summary>
-        </key>
-
-        <key type="as" name="toggle-stacking-global">
-            <default><![CDATA[['<Super>s']]]></default>
-            <summary>Toggle stacking mode outside management mode</summary>
-        </key>
-
         <key type="as" name="management-orientation">
             <default><![CDATA[['o']]]></default>
             <summary>Toggle tiling orientation</summary>
-        </key>
-
-        <key type="as" name="tile-enter">
-            <default><![CDATA[['<Super>Return','<Super>KP_Enter']]]></default>
-            <summary>Enter tiling mode</summary>
-        </key>
-
-        <key type="as" name="tile-accept">
-            <default><![CDATA[['Return','KP_Enter']]]></default>
-            <summary>Accept tiling changes</summary>
-        </key>
-
-        <key type="as" name="tile-reject">
-            <default><![CDATA[['Escape']]]></default>
-            <summary>Reject tiling changes</summary>
         </key>
 
         <key type="as" name="toggle-floating">
